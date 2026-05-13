@@ -8,6 +8,7 @@ def task_manager():
         else:
             for i, task in enumerate(tasks):
                 print(f"{i+1}. {task}")
+    return None
 
 # Main function
 print(task_manager())
