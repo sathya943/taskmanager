@@ -9,6 +9,10 @@ def task_manager():
             for i, task in enumerate(tasks):
                 print(f"{i+1}. {task}")
 
+def list_tasks():
+    pass
+
+
 # Main function
 print(task_manager())
 
