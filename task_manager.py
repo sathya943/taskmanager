@@ -10,6 +10,10 @@ def task_manager():
                 print(f"{i+1}. {task}")
     return None
 
+def list_tasks():
+    pass
+
+
 # Main function
 print(task_manager())
 
